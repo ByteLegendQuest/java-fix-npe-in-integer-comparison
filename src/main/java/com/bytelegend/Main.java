@@ -8,7 +8,7 @@ public class Main {
     }
 
     public static boolean compare(int a, Integer b) {
-        int c = b;
-        return a == c;
+        if (b == null) return false;
+        return a == b;
     }
 }
