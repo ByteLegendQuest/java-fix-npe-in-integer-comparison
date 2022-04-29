@@ -8,6 +8,6 @@ public class Main {
     }
 
     public static boolean compare(int a, Integer b) {
-        return new Integer(a).equals(b);
+        return a == b;
     }
 }
