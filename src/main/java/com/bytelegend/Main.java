@@ -7,7 +7,8 @@ public class Main {
         System.out.println(compare(123, null));
     }
 
-    public static boolean compare(Integer a, Integer b) {
-        return a.equals(b);
+    public static boolean compare(int a, Integer b) {
+        Integer x = new Integer(a);
+        return x.equals(b);
     }
 }
