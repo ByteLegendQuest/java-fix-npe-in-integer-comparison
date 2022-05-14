@@ -8,6 +8,12 @@ public class Main {
     }
 
     public static boolean compare(int a, Integer b) {
-        return a == b;
+        if (b == null) {
+            return false;
+        }
+        else {
+            return a == b;
+        }
+       
     }
 }
