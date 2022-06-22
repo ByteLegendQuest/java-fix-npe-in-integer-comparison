@@ -8,7 +8,7 @@ public class Main {
     }
 
     public static boolean compare(int a, Integer b) {
-        if (b.equals(null)) {
+        if (b == null) {
             return false;
         }
         return Integer.valueOf(a) == b;
