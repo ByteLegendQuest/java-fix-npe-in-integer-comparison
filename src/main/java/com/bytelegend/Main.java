@@ -11,6 +11,6 @@ public class Main {
         if (b == null) {
             return false;
         }
-        return Integer.valueOf(a) == b;
+        return a == b;
     }
 }
