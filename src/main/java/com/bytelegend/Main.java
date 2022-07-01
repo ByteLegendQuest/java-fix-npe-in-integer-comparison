@@ -8,6 +8,10 @@ public class Main {
     }
 
     public static boolean compare(int a, Integer b) {
-        return b.equals(a);
+        if (b!=null){
+            return b.equals(a);
+        }else {
+            return false;
+        }
     }
 }
