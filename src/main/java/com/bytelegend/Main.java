@@ -8,9 +8,9 @@ public class Main {
     }
 
     public static boolean compare(int a, Integer b) {
-        if( a.getClass().getSimpleName() != "Int"){
+        if( b == null){
             return false;
-        } else if ( a.getClass().getSimpleName() == "Int" ) {
+        } else {
             return a == b;
         }
     }
