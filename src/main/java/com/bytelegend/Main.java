@@ -1,5 +1,5 @@
 package com.bytelegend;
-import java.util.Objects;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println(compare(123, 456));
@@ -8,6 +8,6 @@ public class Main {
     }
 
     public static boolean compare(int a, Integer b) {
-        return Objects.nonNull(b) && a == b;
+        return a == b;
     }
 }
