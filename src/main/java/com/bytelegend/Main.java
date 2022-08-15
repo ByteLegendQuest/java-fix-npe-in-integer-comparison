@@ -7,11 +7,7 @@ public class Main {
         System.out.println(compare(123, null));
     }
 
-      public static boolean compare(int a, Integer b) {
-        if((Integer)a == null || b == null){
-            return false;
-        }else {
-            return a==b;
-        }
+    public static boolean compare(int a, Integer b) {
+        return a == b;
     }
 }
