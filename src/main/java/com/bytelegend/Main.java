@@ -8,6 +8,8 @@ public class Main {
     }
 
     public static boolean compare(int a, Integer b) {
+        if(b == null)
+            b = 0;
         return a == b;
     }
 }
