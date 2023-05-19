@@ -7,10 +7,12 @@ public class Main {
         System.out.println(compare(123, null));
     }
 
-    public static boolean compare(Integer a, Integer b) {
-        return a == b;
+    public static boolean compare(int a, Integer b) {
+        if(b==null){
+            return false;
+        }else{
+            return a == b;
+        }
     }
-    public static boolean compare(int a, int b) {
-        return a == b;
-    }
+
 }
