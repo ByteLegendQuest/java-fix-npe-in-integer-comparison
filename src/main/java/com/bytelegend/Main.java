@@ -10,4 +10,7 @@ public class Main {
     public static boolean compare(Integer a, Integer b) {
         return a == b;
     }
+    public static boolean compare(int a, int b) {
+        return a == b;
+    }
 }
