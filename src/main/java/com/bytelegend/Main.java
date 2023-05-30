@@ -9,5 +9,7 @@ public class Main {
 
     public static boolean compare(int a, Integer b) {
         return a == b;
+        Integer objA = a;
+        return objA.equals(b);
     }
 }
