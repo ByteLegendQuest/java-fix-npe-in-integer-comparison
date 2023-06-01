@@ -8,6 +8,7 @@ public class Main {
     }
 
     public static boolean compare(int a, Integer b) {
+        if (Objects.isNull(b)) return false;
         return a == b;
     }
 }
